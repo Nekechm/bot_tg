@@ -1,0 +1,49 @@
+####################################################
+###################### STEP 1 ######################
+####################################################
+
+R-URL: https://api.qiwi.com/partner/bill/v1/bills/245532
+URL: https://api.qiwi.com/partner/bill/v1/bills/245532
+Code: 404 Not Found
+Method: GET
+
+##################### REQUEST ######################
+Headers:
+
+Host:           api.qiwi.com
+Accept:         */*
+Accept-Encoding: gzip, deflate
+Connection:     keep-alive
+User-Agent:     python-httpx/0.24.0
+Content-Type:   application/json
+Authorization:  Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6Inp1ejJzcy0wMCIsInVzZXJfaWQiOiI3OTAwOTIwNTI2NSIsInNlY3JldCI6IjVjZDI3NjY1Y2NkNjg3NWNiZjg4YzY4OTYyNjdmM2E4MzFkNmFlZDQ5YzI1ZmI4MmZiMjA0YzI1MzIzODhlZDYifX0=
+Cookie:         auth_ukafokfuabbuzdckyiwlunsh=MDAwfF98X3wmQHxeUQF0EE4GYHAIawZEeQJlc1AHWxlcDCxaTkslWFhaXFRLWVBtZEJrC11rDU40B1llB0MiA2xmYQMBZGJidUdhD1ZWc15bCzYlASBXSHhVfXoYUA4MWF1yWUBLcQ==
+
+########### CONTENT ############
+
+######### END CONTENT ##########
+
+##################### RESPONSE #####################
+
+Headers:
+
+Server:         nginx
+Date:           Sat, 29 Apr 2023 15:38:35 GMT
+Content-Type:   application/json
+Content-Length: 207
+Connection:     keep-alive
+Cache-Control:  no-cache, no-store
+X-B3-SpanId:    e45ab134a6394f71
+X-B3-SpanId:    ab524531a156ea33
+X-Edge-Proxied-Response: true
+Expires:        Thu, 01 Jan 1970 00:00:00 GMT
+X-B3-ParentSpanId: 29111256a279e63b
+X-B3-TraceId:   8ea51de6290a28ef
+content-encoding: gzip
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+
+########### CONTENT ############
+{"serviceName":"payin-invoicing-api","errorCode":"api.invoice.not.found","description":"—чЄт не найден","userMessage":"—чЄт не найден","dateTime":"2023-04-29T18:38:35.557302+03:00","traceId":"8ea51de6290a28ef"}
+######### END CONTENT ##########
+
